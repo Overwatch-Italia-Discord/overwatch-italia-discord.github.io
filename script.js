@@ -1,3 +1,5 @@
+document.body.style.minWidth = screen.width.toString() + "px";
+
 var baritems = document.getElementsByClassName("bar-item");
 function bar() {
 	for (i=0; i < baritems.length; i++) {

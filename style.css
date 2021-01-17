@@ -54,6 +54,14 @@ img.header {
 	margin-bottom: 275px;
 }
 
+.space {
+	float: center;
+}
+
+.features {
+	float: center;
+}
+
 .table {
 	background-color: RGBA(255, 154, 54, 1);
 	padding: 12px 12px;
