@@ -44,7 +44,7 @@ img.header {
 
 .table-title {
 	font-size: 35px;
-	text-shadow: 1.5px 1.5px white;	
+	text-shadow: 1.5px 1.5px white;
 }
 
 strong {
@@ -161,4 +161,11 @@ a.barItem {
 a.barItem:hover {
   background-color: #FA9C1D;
 	font-size: 22px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+	margin-top: 10px;
 }
