@@ -19,10 +19,6 @@ body {
 	text-shadow: 1.5px 1.5px white;
 }
 
-.bar-item {
-	display: unset;
-}
-
 .right-header {
 	font-size: 50px;
 	margin-left: 10px;
@@ -52,14 +48,6 @@ img.header {
 .tables {
 	margin-left: 160px;
 	margin-bottom: 275px;
-}
-
-.space {
-	float: center;
-}
-
-.features {
-	float: center;
 }
 
 .table {
@@ -94,7 +82,8 @@ p {
 div.left {
     display: block;
     text-align: left;
-    margin-left: 50px;
+    margin-left: 80px;
+		margin-right: 50px;
     background: #FA9C1D;
     padding: 2px 50px;
     transition-duration: .3s;
@@ -103,7 +92,8 @@ div.left {
 div.right {
     display: block;
     text-align: right;
-    margin-right: 50px;
+    margin-right: 80px;
+		margin-left: 50px;
     background: white;
     padding:  2px 50px;
     transition-duration: .3s;
@@ -111,4 +101,40 @@ div.right {
 
 div.right:hover, div.left:hover {
     padding: 10px 200px;
+}
+
+.navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.barItem {
+	float: left;
+}
+
+img.barItem {
+	height: 50px;
+	margin-right: 14px;
+}
+
+a.barItem {
+	display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	font-size: 20px;
+	transition-duration: .2s;
+}
+
+.barItemActive {
+  background-color: #FA9C1D;
+}
+
+a.barItem:hover {
+  background-color: #FA9C1D;
+	font-size: 22px;
 }

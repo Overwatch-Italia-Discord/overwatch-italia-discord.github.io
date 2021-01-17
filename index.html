@@ -15,13 +15,20 @@
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<link rel="icon" href="assets/logo.png" type="image/png">
 		<script src="https://kit.fontawesome.com/2cd6389f66.js" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+			new Crate({
+				server: '179934495384928256',
+				channel: '179943521166295040'
+			})
+		</script>
 	</head>
 	<body>
-			<!-- <div class="bar">
-				<i id="bar-icon" class="fas fa-align-justify" onClick="bar()"></i>
-				<a class="bar-item">Home</a>
-				<a class="bar-item">Entra</a>
-			</div> -->
+			<ul class="navBar">
+				<li class="barItem"><a class="barItem barItemActive" href="#">Home</a></li>
+  			<li class="barItem"><a class="barItem" href="#">News</a></li>
+  			<li class="barItem"><a class="barItem" href="#">Contact</a></li>
+  			<li class="barItem"><a class="barItem" href="#">About</a></li>
+			</ul>
 			<div class="container">
 				<div class="header">
 					<img src="assets/logo.png" class="header">
