@@ -1,0 +1,135 @@
+@font-face {
+	font-family: 'Big Noodle Too';
+  src: url('bignoodletoo.ttf'); /* IE9 Compat Modes */
+  src: url('bignoodletoo.ttf') format('embedded-opentype'), /* IE6-IE8 */
+       url('bignoodletoo.ttf') format('woff2'), /* Super Modern Browsers */
+       url('bignoodletoo.ttf') format('woff'), /* Pretty Modern Browsers */
+       url('bignoodletoo.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+body {
+	font-family: "Big Noodle Too";
+	background: #2C2F33;
+	color: white;
+}
+
+.link {
+	text-decoration: none;
+	color: #7289DA;
+	text-shadow: 1.5px 1.5px white;
+}
+
+.right-header {
+	font-size: 50px;
+	margin-left: 10px;
+}
+
+div.header {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+img.header {
+	width: 100px;
+	float: left;
+}
+
+.letter-space {
+	letter-spacing: 16px;
+}
+
+.table-title {
+	font-size: 35px;
+	text-shadow: 1.5px 1.5px black;
+}
+
+.tables {
+	margin-bottom: 50px;
+  text-align: center;
+}
+
+.table {
+	background-color: RGBA(255, 154, 54, 1);
+	padding: 12px 12px;
+	border-radius: 10px;
+	font-size: 30px;
+	max-width: 310px;
+	margin-top: 50px;
+  display: inline-block;
+}
+
+h1 {
+    font-family: "Big Noodle Too";
+    letter-spacing: 2px;
+}
+
+h1.left {
+    color: white;
+}
+
+h1.right {
+    color: black;
+}
+
+p {
+    font-size: 30px;
+		color: black;
+}
+
+div.left {
+    display: block;
+    text-align: center;
+    margin-left: 10px;
+		margin-right: 10px;
+    background: #FA9C1D;
+    padding: 2px 50px;
+    transition-duration: .3s;
+}
+
+div.right {
+    display: block;
+    text-align: center;
+    margin-left: 10px;
+		margin-right: 10px;
+    background: white;
+    padding:  2px 50px;
+    transition-duration: .3s;
+}
+
+.navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.barItem {
+	float: left;
+}
+
+img.barItem {
+	height: 50px;
+	margin-right: 14px;
+}
+
+a.barItem {
+	display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	font-size: 20px;
+	transition-duration: .2s;
+}
+
+.barItemActive {
+  background-color: #FA9C1D;
+}
+
+a.barItem:hover {
+  background-color: #FA9C1D;
+	font-size: 22px;
+}
