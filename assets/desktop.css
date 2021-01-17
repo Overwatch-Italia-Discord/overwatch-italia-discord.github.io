@@ -29,11 +29,13 @@ div.header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
 }
 
 img.header {
 	width: 100px;
 	float: left;
+
 }
 
 .letter-space {
@@ -42,39 +44,58 @@ img.header {
 
 .table-title {
 	font-size: 35px;
-	text-shadow: 1.5px 1.5px black;
+	text-shadow: 1.5px 1.5px white;	
+}
+
+strong {
+	text-shadow: 1.5px 1.5px white;
 }
 
 .tables {
-	margin-bottom: 50px;
 	text-align: center;
+	margin-top: 50px;
 }
 
 .table {
-	background-color: RGBA(255, 154, 54, 1);
+	background-color: RGB(255, 154, 54);
 	padding: 12px 12px;
 	border-radius: 10px;
+	margin-bottom: 50px;
 	font-size: 30px;
-	max-width: 310px;
-	margin-top: 50px;
+	max-height: 200px;
+	max-width: 300px;
 	display: inline-block;
+	margin-right: 25px;
+	margin-left: 25px;
+	color: black;
 }
 
-.not-last {
-	margin-right: 50px;
+.table-info {
+	text-decoration: none;
+	color: #2C2F33;
+	transition-duration: .3s;
+	font-size: 27px;
+}
+
+.table-info:hover {
+	color: RGB(255, 154, 54);
+	background-color: white;
+	border-radius: 10px;
+	font-size: 30px;
+	padding: 3px 8px;
 }
 
 h1 {
-    font-family: "Big Noodle Too";
-    letter-spacing: 2px;
+  font-family: "Big Noodle Too";
+  letter-spacing: 2px;
 }
 
 h1.left {
-    color: white;
+  color: white;
 }
 
 h1.right {
-    color: black;
+  color: black;
 }
 
 p {
