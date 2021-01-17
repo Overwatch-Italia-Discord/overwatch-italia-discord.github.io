@@ -130,18 +130,17 @@ div.right:hover, div.left:hover {
 .navBar {
   list-style-type: none;
   margin: 0;
+	top: 0;
+	position: fixed;
+	width: 100%;
+	left: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #333
 }
 
 li.barItem {
 	float: left;
-}
-
-img.barItem {
-	height: 50px;
-	margin-right: 14px;
 }
 
 a.barItem {
@@ -167,5 +166,5 @@ a.barItem:hover {
   position: fixed;
   top: 0;
   width: 100%;
-	margin-top: 10px;
+	margin-top: 0px;
 }
